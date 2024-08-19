@@ -35,6 +35,8 @@ module.exports = {
     "import/no-unresolved": "error", // import 시 모듈을 찾을 수 없는 경우 오류로 처리
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-empty-object-type": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
   },
   settings: {
     "import/parsers": {
