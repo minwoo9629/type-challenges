@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "es2016",
+    "include": ["src/**/*.ts"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    /* Modules */
+    "module": "commonjs",
+    /* JavaScript Support */
+     "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
