@@ -42,8 +42,6 @@ type cases = [
     Expect<Equal<Expected3, MyOmit<Todo1, 'description' | 'completed'>>>,
 ]
 
-type A = Pick<Todo1, 'title'>
-
 // @ts-expect-error
 type error = MyOmit<Todo, 'description' | 'invalid'>
 
