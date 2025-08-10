@@ -20,7 +20,7 @@
 
 /* _____________ 여기에 코드 입력 _____________ */
 
-type TupleToUnion<T extends unknown[]> = T[number];
+// type TupleToUnion<T extends unknown[]> = T[number];
 // or
 type TupleToUnion<T> = T extends Array<infer U> ? U : never;
 
